@@ -2,16 +2,21 @@ package com.humana.dhp.dhppocs.hhh.company.Inheritance;
 
 public class Son extends Father{
     String firstName = "saroj";
-    int a = 18;
+    int age = 24;
 
-    public Son( ){
-
-        System.out.println("Son's Constructor");
+    public Son(int ag, int age) {
+        super(ag);
+        this.age = age;
     }
-    public void run(){
-        a = 17;
-        System.out.println(a);
-        System.out.println(this.a);
-        System.out.println(super.a);
+
+
+    public void walk(){
+        age = 3;
+        System.out.println(age);
+        System.out.println(this.age);
+        System.out.println(super.age);
+    }
+
+    public void name() {
     }
 }

@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 @Service
 @RequiredArgsConstructor
 @Slf4j
-public class DhpService {
+public class RestService {
     public String buildMessage(String name){
         return "Hello" + name + ". This is a greeting from the service layer";
     }

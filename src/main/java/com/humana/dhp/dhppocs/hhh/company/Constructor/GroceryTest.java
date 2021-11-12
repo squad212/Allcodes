@@ -2,8 +2,9 @@ package com.humana.dhp.dhppocs.hhh.company.Constructor;
 
 public class GroceryTest {
     public static void main(String[] args) {
-        Grocery gg = new Grocery(2);
+        Grocery gg = new Grocery("");
         System.out.println(gg.water);
+        Grocery gs= new Grocery("JackDaniel");
     Grocery g = new Grocery( "Cabbage");
     Grocery g1 = new Grocery("Okra");
     Grocery g2 = new Grocery("Zuchini");
