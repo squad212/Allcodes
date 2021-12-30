@@ -20,7 +20,7 @@ public class RestController {
     @GetMapping (value = "/greeting", produces = "application/json")
     public GreetingResponse getGreeting(@RequestParam ("name") String name){
         String message = restService.buildMessage(name);
-    return GreetingResponse.builder().greeting(message).build();
+    return GreetingResponse.builder().greeting(name).build();
     }
 
     @GetMapping (value = "/getDrugInfo", produces = "application/json")
