@@ -17,7 +17,7 @@
 //         * for (int a = 0; i<a.lenght, i++)
 //         * { sout(a{i})
 //         * }
-//         */
+//*/
 //        /**int a = 0;
 //         * while (i< a.length)
 //         * { sout (a{i});

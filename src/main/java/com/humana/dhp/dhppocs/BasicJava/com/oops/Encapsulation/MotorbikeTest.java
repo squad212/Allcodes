@@ -26,7 +26,8 @@ public class MotorbikeTest {
          *
          * increasing the value of the variable
          */
-       int ducatiSpeed = ducati.getSpeed(); //get ducati speed
+
+       int ducatiSpeed = ducati.getSpeed(); //get ducati speed initial speed It is just initialization
         ducatiSpeed = ducatiSpeed + 200;//increase by 100
         ducati.setSpeed(ducatiSpeed);//set it in ducati speed
         System.out.println(ducatiSpeed);
@@ -36,6 +37,8 @@ public class MotorbikeTest {
         System.out.println(ducati.getSpeed());
         r15.decreaseSpeed(59);
         System.out.println(r15.getSpeed());
+
+      MotorBike.stero(44); //if the method is static we can
 
     }
 }

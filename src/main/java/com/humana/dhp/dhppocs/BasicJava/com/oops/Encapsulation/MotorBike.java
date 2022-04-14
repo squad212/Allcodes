@@ -3,8 +3,13 @@ package com.humana.dhp.dhppocs.BasicJava.com.oops.Encapsulation;
 public class MotorBike {
     //state/has/data
     String steroMeter;
-    private int stero;
+    public int stero;
     private int speed; //member variable
+
+
+    public static void stero(int steroSpeed ){
+
+    }
 
     public MotorBike(){
         this(5);
