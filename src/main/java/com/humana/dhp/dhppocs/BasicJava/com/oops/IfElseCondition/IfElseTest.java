@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class IfElseTest {
     public static void main(String[] args) {
+        System.out.println(givesDay(2));
         /**
          * Ask user for Input
          *  Enter two numbers
@@ -63,24 +64,64 @@ public class IfElseTest {
 //            System.out.println("Results: " + (number1 * number2));
 //        }else if(choice == 4){
 //            System.out.println("Results: " + (number1 % number2));
-        }
+    }
 
-    private static void extracted(int firstNumber, int secondNumber, int option) {
+    private static void extracted(int option, int firstNumber, int secondNumber) {
         if (option == 1) {
             System.out.println("Addition of the two number: " + (firstNumber + secondNumber));
-        }else if(option == 2){
-                System.out.println("Subtraction of the two number: " + (firstNumber - secondNumber));
-            }else if(option ==3) {
+        } else if (option == 2) {
+            System.out.println("Subtraction of the two number: " + (firstNumber - secondNumber));
+        } else if (option == 3) {
             System.out.println("multiplication of the two number: " + (firstNumber * secondNumber));
-        }else if(option == 4) {
+        } else if (option == 4) {
             System.out.println("division of the two number: " + (firstNumber / secondNumber));
-        }else {
+        } else {
             System.out.println("Non of the choice matches");
         }
+
+        int time = 16;
+        if (time < 8) {
+            System.out.println("Good Morning");
+        } else if (time < 14) {
+            System.out.println("Good After noon");
+        } else {
+            System.out.println("Good evening");
+        }
+
+        //Ternary operator
+        // variable = (condition) ? expressionTrue :  expressionFalse;
+        String result = (time < 10) ? "Good Afternoon" : "Good Evening";
+        System.out.println(result);
     }
 
 
 
+    private int dayNumber;
+    public static String givesDay(int dayNumber) {
+        String weekDay = "";
+        if (dayNumber == 1) {
+            System.out.println("sunday: " + "Weekdays");
+
+        } else if (dayNumber == 2) {
+            System.out.println("Monday: " + "Weekdays");
+
+        } else if (dayNumber == 3) {
+            System.out.println("Tuesday : " + "Weekdays");
+
+        } else if (dayNumber == 4) {
+            System.out.println("Wednesday: " + "Weekdays");
+
+        } else if (dayNumber == 7) {
+            System.out.println("saturday");
+        }
+        return weekDay;
+
+        // can be done through 2 ways
+    /*
+    initialize the variable an
+     */
+
+    }
 }
 
 
