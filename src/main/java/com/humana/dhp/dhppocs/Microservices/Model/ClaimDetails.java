@@ -1,4 +1,4 @@
-package com.humana.dhp.dhppocs.Microservices.Response;
+package com.humana.dhp.dhppocs.Microservices.Model;
 
 import lombok.*;
 

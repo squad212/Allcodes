@@ -1,12 +1,24 @@
 package com.humana.dhp.dhppocs.hhh.company.ConditionalStatement;
 
-import java.util.Scanner;
+import lombok.extern.slf4j.Slf4j;
 
+import java.util.Scanner;
+@Slf4j
 public class IFElseCondition {
 
     public static void main(String[] args) {
+
+        int i =1;
+        for(i=0; i<=10; i++){
+            System.out.println("print valid");
+            if(i==2)
+                continue;
+            else if(i==8)
+                break;
+        }
+
         //for loop statement
-        for(int i=0; i<10; i++)
+        for (i=0; i<10; i++)
         {
             System.out.println("print valid");
             if (i==2)
@@ -16,9 +28,8 @@ public class IFElseCondition {
 
             //while loop statement
             boolean doExit = true;
-             while (doExit)
-             //to take the input from the system
-                 System.out.println("Enter 1 to add, 2 to exit");
+            while (doExit)
+                System.out.println("enter 1 to add, 2 to exit");
              Scanner sc = new Scanner(System.in);
              int option = sc.nextInt();
              if (option ==1)
@@ -64,7 +75,7 @@ public class IFElseCondition {
     Scanner sc2 = new Scanner(System.in);
 
     int number1 = sc2.nextInt();
-    int  number2 = sc2.nextInt();
+    int number2 = sc2.nextInt();
     int number3 = sc2.nextInt();
     int sum = number1 + number2 + number3;
     if (sum <=100){

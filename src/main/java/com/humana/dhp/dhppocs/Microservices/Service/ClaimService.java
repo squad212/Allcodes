@@ -1,11 +1,8 @@
 package com.humana.dhp.dhppocs.Microservices.Service;
 
-import com.humana.dhp.dhppocs.Microservices.Response.ClaimDetails;
-import org.springframework.util.CollectionUtils;
+import com.humana.dhp.dhppocs.Microservices.Model.ClaimDetails;
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
 
 public class ClaimService {
     private ArrayList<ClaimDetails> claimDetails = new ArrayList<>();//Declaration

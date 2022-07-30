@@ -6,10 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.jws.WebService;
 import java.util.logging.Logger;
 
-@WebService
 @RestController
 public class MathCal {
     Logger log= Logger.getLogger("MathCal");

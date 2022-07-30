@@ -7,7 +7,7 @@ public class Grocery {
     short electricityBill = 32444;
 
 
-    public Grocery( String v){
+    public Grocery(String v ){
         System.out.println("1st Constructor");
         vegetable= v;
     }
