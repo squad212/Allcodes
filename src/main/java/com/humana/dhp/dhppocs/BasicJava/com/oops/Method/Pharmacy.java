@@ -1,4 +1,4 @@
-package com.humana.dhp.dhppocs.BasicJava.com.oops.Encapsulation;
+package com.humana.dhp.dhppocs.BasicJava.com.oops.Method;
 
 public class Pharmacy {
   private String medicine1 = "Ibrubrofen";
